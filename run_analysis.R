@@ -1,6 +1,6 @@
 ###############################################################################
-# 
-#
+# This script must reside beside the directory of the 
+# unzipped dataset, getdata-projectfiles-UCI HAR Dataset.
 ###############################################################################
 
 ###
