@@ -78,7 +78,7 @@ testAndTrainData["Subject"] <- testAndTrainSubjects
 ###
 # To do this, search the column names for substrings "mean" and "std" also 
 # keeping the Activites column 
-testAndTrainData <- testAndTrainData[grepl("mean|std|Activity|Subject",colnames(testAndTrainData))]
+testAndTrainData <- testAndTrainData[grepl("mean()|std()|Activity|Subject",colnames(testAndTrainData))]
 
 
 ###
