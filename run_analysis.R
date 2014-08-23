@@ -1,31 +1,38 @@
+###############################################################################
+# 
+#
+###############################################################################
+
 ###
 ## Load datasets
 ###
 
+baseDatasetDirectory <- "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/"
+
 # Labels for activities
-activityLabels 	<- read.table("UCI HAR Dataset/activity_labels.txt")
+activityLabels 	<- read.table(paste(baseDatasetDirectory,"activity_labels.txt", sep=""))
 
 # Names of the features
-features        <- read.table("UCI HAR Dataset/features.txt")
+features        <- read.table(paste(baseDatasetDirectory,"features.txt", sep=""))
 
 # Test dataset
-testData	<- read.table("UCI HAR Dataset/test/X_test.txt")
+testData	<- read.table(paste(baseDatasetDirectory,"test/X_test.txt", sep=""))
 
 # Test subjects
-testSubjects      <- read.table("UCI HAR Dataset/test/subject_test.txt")
+testSubjects    <- read.table(paste(baseDatasetDirectory,"test/subject_test.txt", sep=""))
 
 # Test activities
-testActivities 	<- read.table("UCI HAR Dataset/test/y_test.txt")
+testActivities 	<- read.table(paste(baseDatasetDirectory,"test/y_test.txt", sep = ""))
                         #activityLabels, by.x=1, by.y=1)
                        
 # Training dataset
-trainData       <- read.table("UCI HAR Dataset/train/X_train.txt")
+trainData       <- read.table(paste(baseDatasetDirectory,"train/X_train.txt", sep=""))
 
 # Test subjects
-trainSubjects      <- read.table("UCI HAR Dataset/train/subject_train.txt")
+trainSubjects   <- read.table(paste(baseDatasetDirectory,"train/subject_train.txt", sep=""))
 
 # Training activities
-trainActivities <- read.table("UCI HAR Dataset/train/y_train.txt")
+trainActivities <- read.table(paste(baseDatasetDirectory,"train/y_train.txt", sep=""))
                         
                         
                         
