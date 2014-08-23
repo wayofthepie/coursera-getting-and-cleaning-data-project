@@ -68,7 +68,7 @@ testAndTrainData["Activity"]  <- testAndTrainActivities
 
 
 ###
-## Add the subjects to a column called subjects
+## Add the subjects to a column called "Subject"
 ###
 testAndTrainData["Subject"] <- testAndTrainSubjects
 
