@@ -113,7 +113,7 @@ exclude <- names(testAndTrainData) %in% c("Activity","Subject")
 aggregatedTestAndTrainData <- aggregate(testAndTrainData[!exclude],
                 by=list(testAndTrainData$Subject,testAndTrainData$Activity),FUN="mean")
 
-# Rename coulmns generate by aggregate
+# Rename columns generate by aggregate
 colnames(aggregatedTestAndTrainData)[1] <- "Activity"
 colnames(aggregatedTestAndTrainData)[2] <- "Subject"
 
