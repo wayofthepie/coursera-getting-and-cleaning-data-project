@@ -41,7 +41,7 @@ Feature names containing **Jerk** stands for the time rate of change of accelera
 Those with **Mag** stand for the magnitude, calculated using the euclidean norm, of the respective measurement in its three dimensions - e.g. AccMag is the magnitude of acceleration the X Y and Z axes.
  
  
- 
+### Mean of time based measurements
 The following are the features corresponding to the *Mean* of the specified time based measurements taken from the dataset:
 TimeBodyAccMeanX
 
@@ -83,7 +83,7 @@ TimeBodyGyroMagMean
 
 TimeBodyGyroJerkMagMean
 
-
+### Standard deviation of time based measurements
 The following are the features corresponding to the *Standard Deviation* of the specified time based measurements taken from the dataset:
 
 TimeBodyAccStandardDeviationX
@@ -126,7 +126,7 @@ TimeBodyGyroMagStandardDeviation
 
 TimeBodyGyroJerkMagStandardDeviation
 
-
+### Mean of frequency based measurements
 The following are the features corresponding to the *Mean* of the specified frequency based measurements taken from the dataset:
 
 FrequencyBodyAccMeanX
@@ -155,7 +155,7 @@ FrequencyBodyBodyGyroMagMean
 
 FrequencyBodyBodyGyroJerkMagMean
 
-
+### Standard deviation of frequency based measurements
 The following are the features corresponding to the *Standard Deviation* of the specified frequency based measurements taken from the dataset:
 
 FrequencyBodyAccStandardDeviationX
