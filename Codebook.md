@@ -34,7 +34,13 @@ The Subject for the given data.
 ## Features 
 In all the below features **X** stands for measurements in the x-axis, **Y** measurements in the y-axis and **Z** measurements in the z-axis of either an **Accelerometer** which is denoted in the feature name by **Acc** or a **Gyroscope** denoted by **Gyro**.
 
-Feature names containing **Jerk** 
+Features beginning with "Time" are time measurements and those beginning with "Frequency" are frequency domain signals calculated using a Fast Fourier Transform.
+
+Feature names containing **Jerk** stands for the time rate of change of acceleration. 
+
+Those with **Mag** stand for the magnitude, calculated using the euclidean norm, of the respective measurement in its three dimensions - e.g. AccMag is the magnitude of acceleration the X Y and Z axes.
+ 
+ 
  
 The following are the features corresponding to the *Mean* of the specified time based measurements taken from the dataset:
 TimeBodyAccMeanX
