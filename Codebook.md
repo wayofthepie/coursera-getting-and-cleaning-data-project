@@ -25,76 +25,87 @@ Dataset" and produces a tidied dataset using the following process:
 
 # Variables
 
-Activity
-    Activity performed for the given data.
+## Activity
+Activity performed for the given data.
 
-Subject
-    The Subject 
-    
-The following Variables
+## Subject
+The Subject for the given data.
+   
+## Features 
+In all the below features **X** stands for measurements in the x-axis, **Y** measurements in the y-axis and **Z** measurements in the z-axis of either an **Accelerometer** which is denoted in the feature name by **Acc** or a **Gyroscope** denoted by **Gyro**.
+
+Feature names containing **Jerk** 
+ 
+The following are the features corresponding to the *Mean* of the specified time based measurements taken from the dataset:
 TimeBodyAccMeanX
 TimeBodyAccMeanY
 TimeBodyAccMeanZ
-TimeBodyAccStandardDeviationX
-TimeBodyAccStandardDeviationY
-TimeBodyAccStandardDeviationZ
 TimeGravityAccMeanX
 TimeGravityAccMeanY
 TimeGravityAccMeanZ
-TimeGravityAccStandardDeviationX
-TimeGravityAccStandardDeviationY
-TimeGravityAccStandardDeviationZ
 TimeBodyAccJerkMeanX
 TimeBodyAccJerkMeanY
 TimeBodyAccJerkMeanZ
-TimeBodyAccJerkStandardDeviationX
-TimeBodyAccJerkStandardDeviationY
-TimeBodyAccJerkStandardDeviationZ
 TimeBodyGyroMeanX
 TimeBodyGyroMeanY
 TimeBodyGyroMeanZ
-TimeBodyGyroStandardDeviationX
-TimeBodyGyroStandardDeviationY
-TimeBodyGyroStandardDeviationZ
 TimeBodyGyroJerkMeanX
 TimeBodyGyroJerkMeanY
 TimeBodyGyroJerkMeanZ
+TimeBodyAccMagMean
+TimeGravityAccMagMean
+TimeBodyAccJerkMagMean
+TimeBodyGyroMagMean
+TimeBodyGyroJerkMagMean
+
+The following are the features corresponding to the *Standard Deviation* of the specified time based measurements taken from the dataset:
+TimeBodyAccStandardDeviationX
+TimeBodyAccStandardDeviationY
+TimeBodyAccStandardDeviationZ
+TimeGravityAccStandardDeviationX
+TimeGravityAccStandardDeviationY
+TimeGravityAccStandardDeviationZ
+TimeBodyAccJerkStandardDeviationX
+TimeBodyAccJerkStandardDeviationY
+TimeBodyAccJerkStandardDeviationZ
+TimeBodyGyroStandardDeviationX
+TimeBodyGyroStandardDeviationY
+TimeBodyGyroStandardDeviationZ
 TimeBodyGyroJerkStandardDeviationX
 TimeBodyGyroJerkStandardDeviationY
 TimeBodyGyroJerkStandardDeviationZ
-TimeBodyAccMagMean
 TimeBodyAccMagStandardDeviation
-TimeGravityAccMagMean
 TimeGravityAccMagStandardDeviation
-TimeBodyAccJerkMagMean
 TimeBodyAccJerkMagStandardDeviation
-TimeBodyGyroMagMean
 TimeBodyGyroMagStandardDeviation
-TimeBodyGyroJerkMagMean
 TimeBodyGyroJerkMagStandardDeviation
+
+The following are the features corresponding to the *Mean* of the specified frequency based measurements taken from the dataset:
 FrequencyBodyAccMeanX
 FrequencyBodyAccMeanY
 FrequencyBodyAccMeanZ
-FrequencyBodyAccStandardDeviationX
-FrequencyBodyAccStandardDeviationY
-FrequencyBodyAccStandardDeviationZ
 FrequencyBodyAccJerkMeanX
 FrequencyBodyAccJerkMeanY
 FrequencyBodyAccJerkMeanZ
-FrequencyBodyAccJerkStandardDeviationX
-FrequencyBodyAccJerkStandardDeviationY
-FrequencyBodyAccJerkStandardDeviationZ
 FrequencyBodyGyroMeanX
 FrequencyBodyGyroMeanY
 FrequencyBodyGyroMeanZ
+FrequencyBodyAccMagMean
+FrequencyBodyBodyAccJerkMagMean
+FrequencyBodyBodyGyroMagMean
+FrequencyBodyBodyGyroJerkMagMean
+
+The following are the features corresponding to the *Standard Deviation* of the specified frequency based measurements taken from the dataset:
+FrequencyBodyAccStandardDeviationX
+FrequencyBodyAccStandardDeviationY
+FrequencyBodyAccStandardDeviationZ
+FrequencyBodyAccJerkStandardDeviationX
+FrequencyBodyAccJerkStandardDeviationY
+FrequencyBodyAccJerkStandardDeviationZ
 FrequencyBodyGyroStandardDeviationX
 FrequencyBodyGyroStandardDeviationY
 FrequencyBodyGyroStandardDeviationZ
-FrequencyBodyAccMagMean
 FrequencyBodyAccMagStandardDeviation
-FrequencyBodyBodyAccJerkMagMean
 FrequencyBodyBodyAccJerkMagStandardDeviation
-FrequencyBodyBodyGyroMagMean
 FrequencyBodyBodyGyroMagStandardDeviation
-FrequencyBodyBodyGyroJerkMagMean
 FrequencyBodyBodyGyroJerkMagStandardDeviation
