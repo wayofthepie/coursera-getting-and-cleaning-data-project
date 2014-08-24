@@ -23,6 +23,8 @@ Dataset" and produces a tidied dataset using the following process:
 8. Create a new data frame with the average of each variable for each "Activity" and "Subject" in the **testAndTrainData** data frame, call this **aggregatedTestAndTrainData**.
 9. Finally write the **aggregatedTestAndTrainData** out to a file called "tidiedData.txt" renaming the "Group.1" column to "Activity" and the "Group.2" column to "Subject".
 
+The final tidied dataset has 68 columns, 66 for the mean and standard deviation measurements of time and frequency features and 2 extra for the "Activity" and "Subject" columns. There are 180 rows, given that we have 30 subjects and 6 activities. The data contained in the final tidied dataset is the average of the mean and standard deviation for each subject doing each activity across all the features.
+
 # Variables
 
 ## Activity
