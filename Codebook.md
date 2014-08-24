@@ -38,7 +38,7 @@ Features beginning with "Time" are time measurements and those beginning with "F
 
 Feature names containing **Jerk** stands for the time rate of change of acceleration. 
 
-Those with **Mag** stand for the magnitude, calculated using the euclidean norm, of the respective measurement in its three dimensions - e.g. AccMag is the magnitude of acceleration the X Y and Z axes.
+Those with **Mag** stand for the magnitude, calculated using the euclidean norm, of the respective measurement in its three dimensions - e.g. AccMag is the magnitude of acceleration in the X Y and Z axes.
  
  
 ### Mean of time based measurements
